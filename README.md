@@ -57,4 +57,4 @@
 
 如果不确定开发时的工作顺序，可以 `参考` 本流程
 
-![前端工程化开发流程引导](_media/fee-dev-flow.jpg)
+![前端工程化开发流程引导](_media/fee-dev-flow.png)
