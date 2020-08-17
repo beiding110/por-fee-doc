@@ -10,7 +10,7 @@
 
 保证 `生产环境` 与 `对应分支` 内代码一致；降低人工成本；自动完成基础单元测试；
 
-具体代码可参考 [ci-test](http://124.239.148.174:8800/yzh-front-test/ci-test) ;
+具体代码可参考 [ci-test](https://github.com/beiding110/ci-test) ;
 
 ![ci-flow](../_media/deploy/ci-flow.png)
 
