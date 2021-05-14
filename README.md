@@ -26,13 +26,21 @@
 	    <td>vue-cli、nuxt</td>
 	</tr>
     <tr>
-	    <td rowspan="2">业务开发</td>
+	    <td rowspan="4">业务开发</td>
 	    <td>模块化</td>
 	    <td>UMD:Webpack</td>
 	</tr>
 	<tr>
 	    <td>源码管理</td>
 	    <td>GitLab</td>
+	</tr>
+	<tr>
+	    <td>编码规范</td>
+	    <td>ESLint</td>
+	</tr>
+	<tr>
+	    <td>自动格式化</td>
+	    <td>vetur、prettier</td>
 	</tr>
     <tr>
 	    <td>构建</td>

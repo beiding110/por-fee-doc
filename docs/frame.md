@@ -22,11 +22,13 @@
 
 ## 脚手架
 
-### 选用技术
+### 选用技术-单页应用
 
 [vue-cli](https://cli.vuejs.org/zh/guide/)
 
-`配置修改版` [por-vue-cli](https://github.com/beiding110/por-vue-cli)
+`配置修改版（基于vue-cli4）` [por-vue-cli4](https://github.com/beiding110/por-vue-cli4)
+
+`配置修改版（基于vue-cli2）` [por-vue-cli](https://github.com/beiding110/por-vue-cli)
 
 ### 说明
 
@@ -36,9 +38,10 @@
 
 ![vue-spa-dist](../_media/frame/vue-spa-dist.png)
 
-### 选用技术
+### 选用技术-ssr或多页应用
 
 [nuxt](https://zh.nuxtjs.org/)
+
 
 `配置修改版` [por-nuxt](https://github.com/beiding110/por-nuxt)
 
