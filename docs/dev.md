@@ -73,13 +73,14 @@ module.exports = {
       parser: 'babel-eslint'
     },
     extends: [
-      // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
-      // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.
+      // vue项目使用该配置，html项目移除该配置
       'plugin:vue/essential'
     ],
-    // required to lint *.vue files
     plugins: [
+      // required to lint *.vue files
       'vue'
+      // html项目使用，需'npm i eslint-plugin-html -g'或'npm i eslint-plugin-html -d'
+      // 'html'
     ],
     ignorePatterns: ['build', 'config', 'node_modules', 'src/js'],
     // add your custom rules here
@@ -105,7 +106,6 @@ module.exports = {
       'no-else-return': 2,//如果if语句里面有return,后面不能跟else语句
       'no-empty': 2,//块语句中的内容不能为空
       'no-empty-character-class': 2,//正则表达式中的[]内容不能为空
-      'no-labels': 2,//禁止使用空label
       'no-eq-null': 2,//禁止对null使用==或!=运算符
       'no-eval': 1,//禁止使用eval
       'no-ex-assign': 2,//禁止给catch语句中的异常参数赋值
@@ -255,7 +255,7 @@ module.exports = {
       'keyword-spacing': 2,//return throw case后面要不要加空格
       'space-unary-ops': [0, { 'words': true, 'nonwords': false }],//一元运算符的前/后要不要加空格
       'spaced-comment': 0,//注释风格要不要有空格什么的
-      'strict': 2,//使用严格模式
+      'strict': 0,//使用严格模式
       'use-isnan': 2,//禁止比较时使用NaN，只能用isNaN()
       'valid-jsdoc': 0,//jsdoc规则
       'valid-typeof': 2,//必须使用合法的typeof的值
