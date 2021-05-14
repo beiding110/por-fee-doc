@@ -206,7 +206,7 @@ module.exports = {
       'consistent-return': 0,//return 后面是否允许省略
       'consistent-this': [2, 'that'],//this别名
       'constructor-super': 0,//非派生类不能调用super，派生类必须调用super
-      'curly': [2, 'all'],//必须使用 if(){} 中的{}
+      'curly': [1, 'all'],//必须使用 if(){} 中的{}
       'default-case': 2,//switch语句最后必须有default
       'dot-location': 0,//对象访问符的位置，换行的时候在行首还是行尾
       'dot-notation': [0, { 'allowKeywords': true }],//避免不必要的方括号
