@@ -43,8 +43,8 @@
 ### 说明
 
 * 全局安装eslint
-npm install -g eslint
-npm i eslint-plugin-html -g
+`npm install -g eslint`
+`npm i eslint-plugin-html -g`
 
 * vscode安装插件 `eslint`
 
